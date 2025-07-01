@@ -22,5 +22,5 @@ spec:
         tier: front
     spec:
       containers:
-      - image: schoolofdevops/vote:vsqr
+      - image: schoolofdevops/vote:v1
         name: vote
