@@ -1,6 +1,7 @@
 ﻿apiVersion: apps/v1
 kind: Deployment
 metadata:  
+  namespace: instavote
   labels:
     app: vote
     tier: front
