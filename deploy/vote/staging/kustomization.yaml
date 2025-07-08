@@ -7,5 +7,8 @@ patchesStrategicMerge:
   - service-patch.yaml
 
 images:
-  - name: schoolofdevops/vote # {"$imagepolicy":"flux-system:vote"}
-   # newTag: v3 # {"$imagepolicy":"flux-system:vote"}
+  - name: cfathi/vote # {"$imagepolicy":"instavote:vote"}
+
+# images:
+#   - name: schoolofdevops/vote # {"$imagepolicy":"flux-system:vote"}
+#    # newTag: v3 # {"$imagepolicy":"flux-system:vote"}
