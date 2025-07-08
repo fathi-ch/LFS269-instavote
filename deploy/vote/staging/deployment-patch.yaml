@@ -9,4 +9,5 @@ spec:
     spec:
       containers:
       - name: vote
-        image: cfathi/vote # {"$imagepolicy":"instavote:vote"}
+        image:  cfathi/vote
+        newTag: main-bdf10d3a-1751984897 # {"$imagepolicy":"flux-system:vote:tag"}
