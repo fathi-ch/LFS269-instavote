@@ -9,4 +9,4 @@ spec:
     spec:
       containers:
       - name: vote
-        image: cfathi/vote
+        image: cfathi/vote # {"$imagepolicy":"instavote:vote"}
