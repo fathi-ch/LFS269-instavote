@@ -7,7 +7,7 @@ patchesStrategicMerge:
   - service-patch.yaml
 images:
   - name: cfathi/vote
-    newTag: main-734d9a8b-1752157911 # {"$imagepolicy":"instavote:vote:tag"}
+    newTag: main-9ab5f410-1752159109 # {"$imagepolicy":"instavote:vote:tag"}
     #newTag: main-586dea36-1751985778 # {"$imagepolicy":"flux-system:vote"}
 
 # images:
