@@ -8,7 +8,8 @@ patchesStrategicMerge:
 
 images:
   - name: cfathi/vote
-    newTag: main-586dea36-1751985778 # {"$imagepolicy":"flux-system:vote"}
+    newTag: main-586dea36-1751985778 # {"$imagepolicy":"instavote:vote"}
+    #newTag: main-586dea36-1751985778 # {"$imagepolicy":"flux-system:vote"}
 
 # images:
 #   - name: schoolofdevops/vote # {"$imagepolicy":"flux-system:vote"}
